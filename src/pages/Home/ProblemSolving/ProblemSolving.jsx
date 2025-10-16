@@ -11,7 +11,7 @@ const ProblemSolving = () => {
       reference: "https://en.wikipedia.org/wiki/Binary_search_algorithm",
     },
     {
-      title: "Dijkstra's Shortest Path",
+      title: "Dijkstra's Shortest Algorithm",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
       description:
@@ -19,7 +19,7 @@ const ProblemSolving = () => {
       reference: "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm",
     },
     {
-      title: "Dynamic Programming - Knapsack",
+      title: "Dynamic Programming(DP) - Knapsack",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
       description:

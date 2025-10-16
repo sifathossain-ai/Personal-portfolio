@@ -23,7 +23,7 @@ const Projects = () => {
       github: "https://github.com/example/ecommerce",
     },
     {
-      title: "Chat Application",
+      title: "Chat GPT",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
       description:
