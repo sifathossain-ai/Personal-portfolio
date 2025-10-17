@@ -1,7 +1,7 @@
 import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { FaGraduationCap, FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
+import { FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
 
 const Education = () => {
   const educationData = [
