@@ -30,12 +30,12 @@ const ProblemSolving = () => {
 
   return (
     <section id="problem-solving" className="px-2">
-      <h2 className="font-mono text-3xl md:text-4xl text-gray-800 mb-4">
-        Problem Solving Activities
-      </h2>
-      <p className="mb-12 text-center md:text-start text-gray-400">
-        My Competitive Programming Journey
-      </p>
+      <div className="mb-12 space-y-3 text-center md:text-start">
+        <h2 className="font-mono text-3xl md:text-4xl text-gray-800">
+          Problem Solving Activities
+        </h2>
+        <p className="text-gray-400">My Competitive Programming Journey</p>
+      </div>
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5">
         {problems.map((problem, index) => (

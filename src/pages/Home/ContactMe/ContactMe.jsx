@@ -51,7 +51,7 @@ const ContactMe = () => {
   ];
   return (
     <section id="contact" className="px-2">
-      <h2 className="gap-2 md:text-start text-center font-mono text-3xl md:text-4xl mb-5 text-gray-800">
+      <h2 className="gap-2 md:text-start text-center font-mono text-3xl md:text-4xl mb-4 text-gray-800">
         Contact Me
       </h2>
       <p className="text-gray-500 md:text-start text-center mb-2">

@@ -25,8 +25,8 @@ const Achievements = () => {
   ];
 
   return (
-    <section id="achievements" className="px-2 max-w-7xl mx-auto">
-      <h2 className="text-center md:text-start font-mono text-3xl md:text-4xl mb-8 text-gray-800">
+    <section id="achievements" className="px-2">
+      <h2 className="text-center md:text-start font-mono text-3xl md:text-4xl mb-12 text-gray-800">
         Achievements
       </h2>
 
