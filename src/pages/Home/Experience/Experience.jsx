@@ -25,7 +25,7 @@ const WorkExperience = () => {
 
   return (
     <section id="experience" className="px-2">
-      <h2 className="text-center md:text-start font-mono text-3xl md:text-4xl mb-8 text-gray-800">
+      <h2 className="text-center md:text-start font-mono text-3xl md:text-4xl mb-12 text-gray-800">
         Work Experience
       </h2>
 

@@ -118,7 +118,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="px-2">
-      <h2 className="text-center md:text-start font-mono text-3xl md:text-4xl mb-10 text-gray-800">
+      <h2 className="text-center md:text-start font-mono text-3xl md:text-4xl mb-12 text-gray-800">
         Skills
       </h2>
 

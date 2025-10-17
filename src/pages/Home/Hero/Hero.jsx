@@ -14,9 +14,9 @@ const Hero = () => {
   return (
     <motion.section
       id="hero"
-      initial={{ opacity: 0, y: 100 }}
-      whileInView={{ opacity: 1, y: 50 }}
-      transition={{ duration: 0.7 }}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
       viewport={{ once: true }}
       className="flex flex-col md:flex-row items-center justify-between px-2 pt-28 md:pt-32 gap-12"
     >

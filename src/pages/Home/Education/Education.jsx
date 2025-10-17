@@ -9,17 +9,17 @@ const Education = () => {
       logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
       name: "Daffodil International University",
       program: "B.Sc. in Software Engineering",
-      result: "3.87",
+      result: "3.76",
       session: "2023 – Present",
-      location: "Daffodil Smart City (DSC). Birulia, Savar, Dhaka-1216",
+      location: "Daffodil Smart City (DSC), Birulia, Savar, Dhaka",
     },
     {
       logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-      name: "Amrita Lal Day College, Barishal",
+      name: "Amrita Lal Day College, Barisal",
       program: "Higher Secondary Certificate (HSC)",
       result: "5:00 ( Golden )",
       session: "2020 – 2021",
-      location: "Barisal City, Barisal, Bangladesh",
+      location: "Barisal City, Barisal",
     },
     {
       logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
@@ -32,8 +32,8 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="px-2 mb-24">
-      <h2 className="flex justify-center items-center gap-2 text-center font-mono text-3xl md:text-4xl mb-10 text-gray-800">
+    <section id="education" className="px-2">
+      <h2 className="gap-2 md:text-start text-center font-mono text-3xl md:text-4xl mb-12 text-gray-800">
         Education
       </h2>
 
