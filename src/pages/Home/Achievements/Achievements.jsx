@@ -1,25 +1,21 @@
 const Achievements = () => {
   const achievements = [
     {
-      image:
-        "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
-      title: "Open Source Contribution",
-      description:
-        "Contributed reusable UI components that were adopted by 50+ projects.",
+      image: "https://i.ibb.co.com/5XJBM2MV/Codechef.png",
+      title: "2★ Star on CodeChef",
+      description: `Earned 2★ on CodeChef with a 1473 rating (Div 3), ranking 410 globally. Practiced extensively on Codeforces (Max 1090) and solved 1000+ problems overall.`,
       reference: {
-        label: "Repository",
-        url: "https://example.com/github-repo",
+        label: "Website",
+        url: "https://www.codechef.com/users/sifathossain",
       },
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80",
-      title: "500+ Community Tutorials",
-      description:
-        "Published 500+ tutorials and walkthroughs empowering new developers.",
+      image: "https://i.ibb.co.com/6RPLJhrk/Coursera-UKPYPJVH5-FSN.jpg",
+      title: "Machine Learning with Python",
+      description: `Completed the Machine Learning course on Coursera on January 29, 2024. Gained hands-on experience with Clustering, Regression, Classification, and practical implementation using SciPy & scikit-learn.`,
       reference: {
-        label: "Browse Tutorials",
-        url: "https://example.com/tutorials",
+        label: "Website",
+        url: "https://www.coursera.org/account/accomplishments/verify/UKPYPJVH5FSN",
       },
     },
   ];
@@ -39,7 +35,7 @@ const Achievements = () => {
             <img
               src={ach.image}
               alt={ach.title}
-              className="w-full p-6 h-44 object-cover"
+              className="w-full p-6 h-full rounded-lg object-cover"
             />
             <div className="p-6 flex-1 flex items-center text-center flex-col">
               <h3 className="text-xl font-semibold mb-2">{ach.title}</h3>

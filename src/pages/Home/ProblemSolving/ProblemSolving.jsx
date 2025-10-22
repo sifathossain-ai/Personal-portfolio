@@ -3,28 +3,25 @@ import React from "react";
 const ProblemSolving = () => {
   const problems = [
     {
-      title: "Binary Search Algorithm",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      title: "1091 Rating on Codeforces",
+      image: "https://i.ibb.co.com/8LTWcJft/images-1.png",
       description:
-        "Implemented a binary search algorithm to find elements in a sorted array efficiently with O(log n) complexity.",
-      reference: "https://en.wikipedia.org/wiki/Binary_search_algorithm",
+        "Solved 450+ problems on Codeforces, including complex challenges using diverse algorithms and data structures.",
+      reference: "https://codeforces.com/profile/sifathossain",
     },
     {
-      title: "Dijkstra's Shortest Algorithm",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      title: "2★ Star on CodeChef ",
+      image: "https://i.ibb.co.com/tw45brHz/codechef-icon-filled-256.png",
       description:
-        "Used Dijkstra's algorithm to find the shortest path in weighted graphs. Optimized using priority queues.",
+        "2★ Coder on CodeChef (1473 Rating, Div 3) — regularly participate in rated contests and solve algorithmic challenges to sharpen problem-solving skills.",
       reference: "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm",
     },
     {
-      title: "Dynamic Programming(DP) - Knapsack",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      title: "Regular AtCoder Participant",
+      image: "https://i.ibb.co.com/KcQ2ydnz/atcoder.png",
       description:
-        "Solved the 0-1 knapsack problem using dynamic programming to maximize profit under weight constraints.",
-      reference: "https://en.wikipedia.org/wiki/Knapsack_problem",
+        "Actively participate in AtCoder contests to strengthen problem-solving and algorithmic thinking skills.",
+      reference: "https://atcoder.jp/users/sifathossain",
     },
   ];
 

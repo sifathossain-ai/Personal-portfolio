@@ -128,7 +128,7 @@ const Skills = () => {
             <h3 className="text-[14px] flex items-center gap-2 text-blue-700 mb-4">
               {section.icon} {section.title}:
             </h3>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-2 md:gap-3">
               {section.skills.map((skill, j) => (
                 <span
                   key={j}

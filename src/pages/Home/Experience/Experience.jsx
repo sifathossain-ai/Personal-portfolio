@@ -4,16 +4,16 @@ import { FaMapMarkerAlt, FaBriefcase, FaCalendarAlt } from "react-icons/fa";
 const WorkExperience = () => {
   const experiences = [
     {
-      company: "Multiplyr",
+      company: "Not Yet",
       logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-      role: "Senior Software Engineer",
-      type: "Full Stack & AI",
-      startDate: "Feb 2022",
+      role: "Software Engineer",
+      type: "Full Stack",
+      startDate: "Feb 2024",
       endDate: "Present",
-      duration: "3 yrs 8 mos",
+      duration: "1 yrs 8 mos",
       location: "Remote (New York, United States)",
-      project: "AlpineX AI",
-      projectLink: "https://example.com",
+      project: "Dragon News",
+      projectLink: "https://dragon-news-by-sifat.surge.sh",
       points: [
         "Led team of 4 engineers to architect production-scale RAG pipeline processing millions of data points.",
         "Built advanced RAG retrieval system enabling Web3 AI agents with sub-100ms latency.",

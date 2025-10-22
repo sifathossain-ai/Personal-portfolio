@@ -3,23 +3,35 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
-      title: "Portfolio Website",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      title: "ProFast",
+      image: "https://i.ibb.co.com/qLPG5rMw/logo.png",
       description:
-        "A personal portfolio website to showcase projects, skills, and experience. Fully responsive and interactive.",
-      frameworks: ["React", "Tailwind CSS", "React Icons", "React Router"],
-      website: "https://example-portfolio.com",
+        "Profast is a full-stack parcel delivery platform that enables users to send, track, and manage parcels efficiently. It includes real-time delivery status updates, authentication, and role-based dashboards for users and admins.",
+      frameworks: [
+        "React.js",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+      ],
+      website: "https://zap-shift-85255.web.app/",
       github: "https://github.com/example/portfolio",
     },
     {
-      title: "E-Commerce Store",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      title: "Gadget Heaven",
+      image: "https://i.ibb.co.com/WpvjG6nF/Group.png",
       description:
-        "An online store platform with product listings, cart functionality, and secure checkout system.",
-      frameworks: ["React", "Redux", "Node.js", "Express", "MongoDB"],
-      website: "https://example-store.com",
+        "Tech Accessorize (Gadget Heaven) — A frontend-developed e-commerce web app for tech gadgets. Users can view products, explore details, and interact through a smooth, responsive UI built with modern frontend technologies",
+      frameworks: [
+        "React",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Firebase Auth",
+        "React Router",
+      ],
+      website: "https://gadget-heaven-from-sifat.surge.sh/",
       github: "https://github.com/example/ecommerce",
     },
     {

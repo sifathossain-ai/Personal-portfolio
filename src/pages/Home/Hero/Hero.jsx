@@ -45,12 +45,13 @@ const Hero = () => {
         </p>
 
         {/* Social Links */}
-        <div className="flex justify-center md:justify-start gap-3 mb-8">
+        <div className="flex justify-center md:justify-start gap-4 mb-8">
           <a
             href="https://github.com/sifathossain-ai"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-700 hover:text-cyan-500 transition-colors text-2xl"
+            className="text-gray-900 hover:scale-110 transition-transform duration-300"
+            title="GitHub"
           >
             <FaGithub className="w-7 h-7" />
           </a>
@@ -58,13 +59,15 @@ const Hero = () => {
             href="https://linkedin.com/in/sifathossain-ai"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-700 hover:text-cyan-500 transition-colors text-2xl"
+            className="text-[#0A66C2] hover:scale-110 transition-transform duration-300"
+            title="LinkedIn"
           >
             <FaLinkedin className="w-7 h-7" />
           </a>
           <a
             href="mailto:sifathossain.swe@gmail.com"
-            className="text-gray-700 hover:text-cyan-500 transition-colors text-2xl"
+            className="text-[#EA4335] hover:scale-110 transition-transform duration-300"
+            title="Gmail"
           >
             <FaEnvelope className="w-7 h-7" />
           </a>
@@ -72,7 +75,8 @@ const Hero = () => {
             href="https://facebook.com/sifathossain.net"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-700 hover:text-cyan-500 transition-colors text-2xl"
+            className="text-[#1877F2] hover:scale-110 transition-transform duration-300"
+            title="Facebook"
           >
             <FaFacebook className="w-7 h-7" />
           </a>
@@ -80,7 +84,8 @@ const Hero = () => {
             href="https://twitter.com/sifathossain_ai"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-700 hover:text-cyan-500 transition-colors text-2xl"
+            className="text-[#1DA1F2] hover:scale-110 transition-transform duration-300"
+            title="Twitter"
           >
             <FaTwitter className="w-7 h-7" />
           </a>
