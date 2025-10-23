@@ -100,6 +100,8 @@ const Hero = () => {
           Contact Me
         </HashLink>
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           className="btn ml-3 rounded-lg font-semibold bg-orange-500 text-white hover:bg-amber-600 shadow-md"
           href="https://drive.google.com/file/d/1B5KGKZwWhcDqAr3QiE2doYO8s2mVJxSG/view?usp=drive_link"
         >
