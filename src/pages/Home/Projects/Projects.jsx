@@ -17,7 +17,7 @@ const Projects = () => {
         "MongoDB",
       ],
       website: "https://zap-shift-85255.web.app/",
-      github: "https://github.com/example/portfolio",
+      github: "https://github.com/sifathossain-ai/Profast-Client-Side-Frontend",
     },
     {
       title: "Gadget Heaven",
@@ -32,27 +32,26 @@ const Projects = () => {
         "React Router",
       ],
       website: "https://gadget-heaven-from-sifat.surge.sh/",
-      github: "https://github.com/example/ecommerce",
+      github: "https://github.com/sifathossain-ai/Assignment8-Gadget-Heaven",
     },
     {
-      title: "Chat GPT",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      title: "Sports Online",
+      image: "https://i.ibb.co.com/5hytNJ78/download-3-removebg-preview.png",
       description:
         "Real-time chat application with user authentication, group chats, and online status indicators.",
       frameworks: ["React", "Socket.io", "Node.js", "Express", "Tailwind CSS"],
       website: "https://example-chat.com",
-      github: "https://github.com/example/chat-app",
+      github: "https://github.com/sifathossain-ai/sports-online-store-client",
     },
     {
-      title: "ProFast",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      title: "Coffee Store",
+      image: "https://i.ibb.co.com/MkTvtdJQ/coffee-shop-removebg-preview.png",
       description:
         "Real-time chat application with user authentication, group chats, and online status indicators.",
       frameworks: ["React", "Socket.io", "Node.js", "Express", "Tailwind CSS"],
-      website: "https://example-chat.com",
-      github: "https://github.com/example/chat-app",
+      website: "https://coffee-store-df024.web.app",
+      github:
+        "https://github.com/sifathossain-ai/coffee-store-client-with-auth",
     },
   ];
 
@@ -71,7 +70,7 @@ const Projects = () => {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-contain rounded-lg mb-4"
+              className="w-45 h-45 object-contain rounded-lg mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2 text-center">
               {project.title}
