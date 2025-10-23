@@ -14,7 +14,7 @@ const ProblemSolving = () => {
       image: "https://i.ibb.co.com/tw45brHz/codechef-icon-filled-256.png",
       description:
         "2★ Coder on CodeChef (1473 Rating, Div 3) — regularly participate in rated contests and solve algorithmic challenges to sharpen problem-solving skills.",
-      reference: "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm",
+      reference: "https://www.codechef.com/users/sifathossain",
     },
     {
       title: "Regular AtCoder Participant",
@@ -52,7 +52,7 @@ const ProblemSolving = () => {
               </p>
               <div className="mt-4">
                 <a
-                  href={problem.reference.url}
+                  href={problem.reference}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-2 py-1 rounded-md bg-cyan-500 text-white text-sm hover:bg-cyan-800 hover:text-white transition"
