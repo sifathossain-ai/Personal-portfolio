@@ -5,7 +5,7 @@ import { FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
 const Education = () => {
   const educationData = [
     {
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      logo: "https://i.ibb.co.com/hRhxn9CC/daffodil-international-university-logo-png-seeklogo-427709-removebg-preview.png",
       name: "Daffodil International University",
       program: "B.Sc. in Software Engineering",
       result: "3.76",
@@ -13,7 +13,7 @@ const Education = () => {
       location: "Daffodil Smart City (DSC), Birulia, Savar, Dhaka",
     },
     {
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      logo: "https://i.ibb.co.com/3mxPmRsq/download-2-removebg-preview.png",
       name: "Amrita Lal Day College, Barisal",
       program: "Higher Secondary Certificate (HSC)",
       result: "5:00 ( Golden )",
@@ -21,7 +21,7 @@ const Education = () => {
       location: "Barisal City, Barisal",
     },
     {
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      logo: "https://i.ibb.co.com/KcxF8nY7/images-2-removebg-preview.png",
       name: "Galachipa Model Secondary School",
       program: "Secondary School Certificate (SSC)",
       result: "5:00",
