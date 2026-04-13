@@ -58,18 +58,6 @@ const Skills = () => {
         { name: "OOP (Java)", icon: <CgCode className="w-5 h-5" /> },
       ],
     },
-
-    {
-      title: "Databases",
-      icon: <FaDatabase className="text-blue-700" />,
-      skills: [
-        { name: "PostgreSQL", icon: <SiPostgresql className="w-4 h-4" /> },
-        { name: "MySQL", icon: <SiMysql className="w-4 h-4" /> },
-        { name: "NoSQL", icon: <BsFiletypeSql className="w-4 h-4" /> },
-        { name: "Ex-MongoDB", icon: <SiMongodb className="w-4 h-4" /> },
-        { name: "Firebase", icon: <SiFirebase className="w-4 h-4" /> },
-      ],
-    },
     {
       title: "Frontend",
       icon: <FaCogs className="text-blue-700" />,
@@ -95,20 +83,14 @@ const Skills = () => {
       ],
     },
     {
-      title: "Data Science",
-      icon: <Boxes className="text-blue-700 w-4 h-4" />,
+      title: "Databases",
+      icon: <FaDatabase className="text-blue-700" />,
       skills: [
-        { name: "Jupyter Notebooks", icon: <SiJupyter className="w-4 h-4" /> },
-        { name: "Machine Learning", icon: <Brain className="w-4 h-4" /> },
-        { name: "Scikit-Learn", icon: <SiScikitlearn className="w-4 h-4" /> },
-        {
-          name: "Data Visualization",
-          icon: <FaChartLine className="w-4 h-4" />,
-        },
-        { name: "Predictive Models", icon: <LineChart className="w-4 h-4" /> },
-        { name: "Pandas", icon: <SiPandas className="w-4 h-4" /> },
-        { name: "Numpy", icon: <SiNumpy className="w-4 h-4" /> },
-        { name: "Matplotlib", icon: <BarChart3 className="w-4 h-4" /> },
+        { name: "PostgreSQL", icon: <SiPostgresql className="w-4 h-4" /> },
+        { name: "MySQL", icon: <SiMysql className="w-4 h-4" /> },
+        { name: "NoSQL", icon: <BsFiletypeSql className="w-4 h-4" /> },
+        { name: "Ex-MongoDB", icon: <SiMongodb className="w-4 h-4" /> },
+        { name: "Firebase", icon: <SiFirebase className="w-4 h-4" /> },
       ],
     },
     {
@@ -119,6 +101,21 @@ const Skills = () => {
         { name: "Vercel", icon: <Globe className="w-4 h-4" /> },
         { name: "Surge", icon: <FaCloudUploadAlt className="w-4 h-4" /> },
         { name: "Netlify", icon: <Globe className="w-4 h-4" /> },
+      ],
+    },
+    {
+      title: "Data Science",
+      icon: <Boxes className="text-blue-700 w-4 h-4" />,
+      skills: [
+        { name: "Machine Learning", icon: <Brain className="w-4 h-4" /> },
+        { name: "Scikit-Learn", icon: <SiScikitlearn className="w-4 h-4" /> },
+        {
+          name: "Data Visualization",
+          icon: <FaChartLine className="w-4 h-4" />,
+        },
+        { name: "Predictive Models", icon: <LineChart className="w-4 h-4" /> },
+        { name: "Pandas", icon: <SiPandas className="w-4 h-4" /> },
+        { name: "Numpy", icon: <SiNumpy className="w-4 h-4" /> },
       ],
     },
   ];

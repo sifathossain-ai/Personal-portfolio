@@ -3,6 +3,23 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "Wapzen.io",
+      image: "https://i.ibb.co.com/4Z4Hdg1p/Wap-Zen-Logo-03.png",
+      description:
+        "Contributed to the backend development of Wapzen.io, a scalable communication platform focused on WhatsApp-based automation. The system enables businesses to manage messages efficiently via RESTful APIs, automation workflows.",
+      frameworks: [
+        "Node.js",
+        "TypeScript",
+        "Nest JS",
+        "PostgreSQL",
+        "Prigma",
+        "Doker",
+        "Next.js",
+      ],
+      website: "https://wapzen.io/",
+      github: "https://github.com/the-jahid/whatsapp_chatbot_builder_server",
+    },
+    {
       title: "ProFast",
       image: "https://i.ibb.co.com/qLPG5rMw/logo.png",
       description:
