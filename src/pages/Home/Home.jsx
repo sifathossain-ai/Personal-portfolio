@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="space-y-20 md:space-y-28">
       <Hero />
-      <Experience />
+      {/* <Experience /> */}
       <Achievements />
       <Skills />
       <ProblemSolving />

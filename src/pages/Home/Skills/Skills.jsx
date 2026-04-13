@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaCode,
   FaDatabase,
@@ -26,8 +25,11 @@ import {
   SiDaisyui,
   SiJsonwebtokens,
   SiMysql,
-  SiAib,
   SiScikitlearn,
+  SiTypescript,
+  SiTypeorm,
+  SiNestjs,
+  SiRender,
 } from "react-icons/si";
 
 import {
@@ -41,6 +43,7 @@ import {
   BarChart3,
 } from "lucide-react";
 import { CgCode } from "react-icons/cg";
+import { BsFiletypeSql } from "react-icons/bs";
 
 const Skills = () => {
   const skillSections = [
@@ -51,6 +54,7 @@ const Skills = () => {
         { name: "C++", icon: <SiCplusplus className="w-4 h-4" /> },
         { name: "Python", icon: <SiPython className="w-4 h-4" /> },
         { name: "JavaScript", icon: <SiJavascript className="w-4 h-4" /> },
+        { name: "TypeScript", icon: <SiTypescript className="w-4 h-4" /> },
         { name: "OOP (Java)", icon: <CgCode className="w-5 h-5" /> },
       ],
     },
@@ -61,7 +65,8 @@ const Skills = () => {
       skills: [
         { name: "PostgreSQL", icon: <SiPostgresql className="w-4 h-4" /> },
         { name: "MySQL", icon: <SiMysql className="w-4 h-4" /> },
-        { name: "MongoDB", icon: <SiMongodb className="w-4 h-4" /> },
+        { name: "NoSQL", icon: <BsFiletypeSql className="w-4 h-4" /> },
+        { name: "Ex-MongoDB", icon: <SiMongodb className="w-4 h-4" /> },
         { name: "Firebase", icon: <SiFirebase className="w-4 h-4" /> },
       ],
     },
@@ -83,9 +88,10 @@ const Skills = () => {
       icon: <Server className="text-blue-700 w-4 h-4" />,
       skills: [
         { name: "Node.js", icon: <SiNodedotjs className="w-4 h-4" /> },
-        { name: "Express.js", icon: <SiExpress className="w-4 h-4" /> },
+        { name: "Nest JS", icon: <SiNestjs className="w-4 h-4" /> },
         { name: "REST API", icon: <Globe className="w-4 h-4" /> },
-        { name: "JWT Verify", icon: <SiJsonwebtokens className="w-4 h-4" /> },
+        { name: "TypeORM", icon: <SiTypeorm className="w-4 h-4" /> },
+        { name: "Ex-Express.js", icon: <SiExpress className="w-4 h-4" /> },
       ],
     },
     {
@@ -106,9 +112,10 @@ const Skills = () => {
       ],
     },
     {
-      title: "Others",
+      title: "Deploy",
       icon: <Box className="text-blue-700 w-4 h-4" />,
       skills: [
+        { name: "Render", icon: <SiRender className="w-4 h-4" /> },
         { name: "Vercel", icon: <Globe className="w-4 h-4" /> },
         { name: "Surge", icon: <FaCloudUploadAlt className="w-4 h-4" /> },
         { name: "Netlify", icon: <Globe className="w-4 h-4" /> },

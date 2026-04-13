@@ -26,10 +26,14 @@ const Hero = () => {
           Hi, I’m Sifat Hossain
         </h1>
         <p className="text-lg md:text-2xl font-light font-sans text-gray-700 mb-4 max-w-xl mx-auto md:mx-0">
-          Software Engineer | Passionate{" "}
-          <span className="font-normal">Full Stack Developer</span> skilled in{" "}
+          Software Engineer | Backend-Focused{" "}
+          <span className="font-normal">
+            {" "}
+            ( Node.js, NestJS with PostgreSQL, TypeORM ){" "}
+          </span>
+          | Ex - <span className="font-normal">Full Stack </span> skilled in{" "}
           <span className="font-normal">React.js</span>, Tailwind CSS, DaisyUI,{" "}
-          <span className="font-normal">Node.js, Express.js</span>, &{" "}
+          <span className="font-normal">Express.js</span>, &{" "}
           <span className="font-normal">MongoDB</span>
         </p>
 
@@ -110,8 +114,8 @@ const Hero = () => {
       </div>
 
       {/* Right Image */}
-      <div className="flex justify-center md:justify-end lg:pr-24">
-        <div className="w-64 h-64 lg:w-80 border-3 border-white lg:h-80 rounded-full overflow-hidden shadow-lg hover:scale-107 transition-transform duration-300">
+      <div className="flex justify-center md:justify-end lg:pr-16">
+        <div className="w-64 h-64 lg:w-85 border-3 border-white lg:h-85 rounded-full overflow-hidden shadow-lg hover:scale-108 transition-transform duration-300">
           <img
             src={profileImg}
             alt="Sifat Hossain"
