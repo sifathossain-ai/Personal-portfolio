@@ -26,7 +26,7 @@ const ContactMe = () => {
       name: "Gmail",
       icon: <FaEnvelope />,
       color: "bg-red-500",
-      link: "mailto:sifathossain.swe@gmail.com",
+      link: "mailto:sifathossain.ai@gmail.com",
     },
     {
       name: "Facebook",
@@ -60,7 +60,7 @@ const ContactMe = () => {
         I try to reply within 24 hours.
       </p>
       <p className="text-gray-400 mb-5 text-xl md:text-2xl font-medium md:text-start text-center">
-        sifathossain.swe@gamil.com
+        sifathossain.ai@gamil.com
       </p>
 
       <div className="flex flex-wrap px-0 md:justify-start justify-center gap-2">

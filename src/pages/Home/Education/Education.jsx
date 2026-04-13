@@ -8,7 +8,7 @@ const Education = () => {
       logo: "https://i.ibb.co.com/hRhxn9CC/daffodil-international-university-logo-png-seeklogo-427709-removebg-preview.png",
       name: "Daffodil International University",
       program: "B.Sc. in Software Engineering",
-      result: "3.76",
+      result: "3.71",
       session: "2023 – Present",
       location: "Daffodil Smart City (DSC), Birulia, Savar, Dhaka",
     },
@@ -27,6 +27,14 @@ const Education = () => {
       result: "5:00",
       session: "2018 – 2019",
       location: "Galachipa, Patuakhali, Barisal",
+    },
+    {
+      logo: "https://i.ibb.co.com/ksDMXzRK/images-3.jpg",
+      name: "Patuakhali Residential School & Collage",
+      program: "Junior School Certificate (JSC)",
+      result: "5:00",
+      session: "2016",
+      location: "Patuakhali City, Barisal",
     },
   ];
 

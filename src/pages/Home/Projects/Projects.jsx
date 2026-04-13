@@ -3,21 +3,41 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "Buyoron",
+      image: "https://i.ibb.co.com/TBc1N75d/logo2.png",
+      description:
+        "Developed Buyoron, a scalable full stack e-commerce platform with multi-role dashboards and real-time order management. Built efficient RESTful APIs to handle authentication, data processing, and system operations.",
+      frameworks: [
+        "JavaScript",
+        "React.js",
+        "Tailwind CSS",
+        "Daisy UI",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Auth",
+      ],
+      website: "https://buyoron.com/",
+      github: "https://github.com/sifathossain-ai/buymart-client",
+    },
+    {
       title: "Wapzen.io",
       image: "https://i.ibb.co.com/4Z4Hdg1p/Wap-Zen-Logo-03.png",
       description:
-        "Contributed to the backend development of Wapzen.io, a scalable communication platform focused on WhatsApp-based automation. The system enables businesses to manage messages efficiently via RESTful APIs, automation workflows.",
+        "Contributed to the frontend and backend development of Wapzen.io, a scalable communication platform focused on WhatsApp-based automation. The system enables businesses to manage messages efficiently via RESTful APIs.",
       frameworks: [
         "Node.js",
         "TypeScript",
         "Nest JS",
         "PostgreSQL",
         "Prigma",
-        "Doker",
         "Next.js",
+        "Tailwind CSS",
+        "Radix UI",
+        "Clerk",
       ],
       website: "https://wapzen.io/",
-      github: "https://github.com/the-jahid/whatsapp_chatbot_builder_server",
+      github: "https://github.com/the-jahid/wa-send-preview",
     },
     {
       title: "ProFast",
@@ -50,15 +70,6 @@ const Projects = () => {
       ],
       website: "https://gadget-heaven-from-sifat.surge.sh/",
       github: "https://github.com/sifathossain-ai/Assignment8-Gadget-Heaven",
-    },
-    {
-      title: "Sports Online",
-      image: "https://i.ibb.co.com/5hytNJ78/download-3-removebg-preview.png",
-      description:
-        "Real-time chat application with user authentication, group chats, and online status indicators.",
-      frameworks: ["React", "Socket.io", "Node.js", "Express", "Tailwind CSS"],
-      website: "https://example-chat.com",
-      github: "https://github.com/sifathossain-ai/sports-online-store-client",
     },
     {
       title: "Coffee Store",

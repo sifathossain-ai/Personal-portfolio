@@ -12,7 +12,7 @@ const Achievements = () => {
     {
       image: "https://i.ibb.co.com/6RDMMQM0/image.png",
       title: "Fundamental of Node.js",
-      description: `While I have already been working with Node.js in real-world projects, this certification reinforces my core understanding and validates the fundamentals behind building scalable backend systems.`,
+      description: `While I have already been working with Node.js in real-world projects, this certification reinforces my core understanding in the scalable backend systems.`,
       reference: {
         label: "Website",
         url: "https://simpli-web.app.link/e/HenZtg7Ri2b",
@@ -31,7 +31,7 @@ const Achievements = () => {
     {
       image: "https://i.ibb.co.com/6RPLJhrk/Coursera-UKPYPJVH5-FSN.jpg",
       title: "Machine Learning with Python",
-      description: `Completed the Machine Learning course on Coursera on January 29, 2024. Gained hands-on experience with Clustering, Regression, Classification, and practical implementation using SciPy & scikit-learn.`,
+      description: `Completed the Machine Learning course on Coursera on January 29, 2024. Gained hands-on experience with Clustering, Regression, Classification, and implementation`,
       reference: {
         label: "Website",
         url: "https://www.coursera.org/account/accomplishments/verify/UKPYPJVH5FSN",
