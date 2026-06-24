@@ -8,7 +8,7 @@ const Education = () => {
       logo: "https://i.ibb.co.com/hRhxn9CC/daffodil-international-university-logo-png-seeklogo-427709-removebg-preview.png",
       name: "Daffodil International University",
       program: "B.Sc. in Software Engineering",
-      result: "3.71",
+      result: "3.77",
       session: "2023 – Present",
       location: "Daffodil Smart City (DSC), Birulia, Savar, Dhaka",
     },

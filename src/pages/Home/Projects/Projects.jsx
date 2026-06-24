@@ -3,6 +3,24 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "Air Collection",
+      image: "https://i.ibb.co.com/NPLNDZP/aircollection1.png",
+      description:
+        "Developed Air Collection, a scalable full-stack e-commerce application powered by Node.js and a robust PostgreSQL database. Engineered secure JWT authentication and optimized live deployment pipelines using Nginx reverse proxies.",
+      frameworks: [
+        "JavaScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Daisy UI",
+        "Node.js",
+        "Next.js",
+        "PostgreSQL",
+        "Nginx",
+      ],
+      website: "https://aircollection.shop/",
+      github: "https://github.com/zharmo/Air-collection",
+    },
+    {
       title: "Buyoron",
       image: "https://i.ibb.co.com/TBc1N75d/logo2.png",
       description:
@@ -18,7 +36,7 @@ const Projects = () => {
         "Firebase Auth",
       ],
       website: "https://buyoron.com/",
-      github: "https://github.com/sifathossain-ai/buymart-client",
+      github: "https://github.com/sifathossain-ai/buyoron-client",
     },
     {
       title: "Wapzen.io",
@@ -38,6 +56,23 @@ const Projects = () => {
       ],
       website: "https://wapzen.io/",
       github: "https://github.com/the-jahid/wa-send-preview",
+    },
+    {
+      title: "Slicee",
+      image: "https://i.ibb.co.com/fY8Gs2sJ/slicee.png",
+      description:
+        "Developed Slicee, a high-performance Next.js e-commerce application with server-state caching and responsive layouts. Built modular UI components to handle secure authentication, cart persistence, and multi-step checkout operations.",
+      frameworks: [
+        "React.js",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "Node.js",
+        "Next.js",
+        "PostgreSQL",
+      ],
+      website: "https://slicee-by-sifat.vercel.app/",
+      github: "https://github.com/sifathossain-ai/slicee-frontend",
     },
     {
       title: "ProFast",

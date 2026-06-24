@@ -107,7 +107,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="btn ml-3 rounded-lg font-semibold bg-orange-500 text-white hover:bg-amber-600 shadow-md"
-          href="https://drive.google.com/file/d/13V8B8TFB82E5wKOO-M5kkd9q7YjjbIYL/view?usp=sharing"
+          href="https://drive.google.com/file/d/1W1qLWgjKOlJvfl4x0tOtyfVPJ1Csx6ms/view?usp=sharing"
         >
           Resume
         </a>
